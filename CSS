@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2b3a50;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.contact, .education, .skills, .languages {
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2b3a50;
+}
+
+.title {
+    font-size: 20px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.profile, .work-experience, .references {
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+.references p {
+    margin: 5px 0;
+}
